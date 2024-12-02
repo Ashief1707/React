@@ -5,6 +5,7 @@ import expensesBreakdowns from "../data/expenses";
 import transactions from "../data/trasactions";
 import { Icon } from "../components/Elements/Icons";
 import { useState } from "react";
+import CardBalance from "../components/Fragments/Dashboard/CardBalance";
 
 const DashboardPage = () => {
 
@@ -96,7 +97,7 @@ const DashboardPage = () => {
     <MainLayout type="dashboard">
       {/* top content start*/}
       <div className="md:grid md:grid-cols-3 md:gap-6">
-        <Card title="Total Balance" />
+        <CardBalance/>
         <Card 
             title="Goals"
             desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae earum ex doloribus, tenetur optio iusto exercitationem reprehenderit distinctio minus nam delectus ab ea asperiores fugiat cupiditate? Blanditiis doloremque nam aliquam!" 
