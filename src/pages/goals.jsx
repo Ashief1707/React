@@ -1,13 +1,13 @@
 import Card from "../components/Elements/Card";
 import MainLayout from "../components/Layouts/MainLayout";
 
-const ExpensesPage = () => {
+const GoalPage = () => {
   return (
-    <MainLayout type="balance">
+    <MainLayout type="goal">
       {/* top content start*/}
       <div className="mb-8">
         <Card
-          title="Expenses Comparison"
+          title="Goal"
           variant="md:col-span3 text-primary"
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni neque quam alias enim ullam deserunt ducimus consequatur cumque hic voluptatem totam ab quibusdam facilis distinctio ratione, sequi vel porro eum."
         />
@@ -28,4 +28,4 @@ const ExpensesPage = () => {
   );
 };
 
-export default ExpensesPage;
+export default GoalPage;
