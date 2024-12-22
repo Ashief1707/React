@@ -3,6 +3,7 @@ const Input = (props) => {
     type,
     placeholder,
     name,
+    register,
     variant = "bg-special-mainBg border border-gray-03",
   } = props;
 
@@ -13,6 +14,7 @@ const Input = (props) => {
       placeholder={placeholder}
       name={name}
       id={name}
+      {...register}
     />
   );
 };
