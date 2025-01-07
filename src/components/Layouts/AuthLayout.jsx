@@ -6,7 +6,7 @@ import { NotifContext } from "../../context/notifContext";
 import SimpleBackdrop from "../Elements/Backdrop";
 import CustomizedSnackbars from "../Elements/SnackBar";
 import * as motion from "motion/react-client";
-import { useTema } from "../../context/TemaContext"; 
+import { useTema } from "../../context/temaContext"; 
 
 const AuthLayout = (props) => {
   const { children, type } = props;
