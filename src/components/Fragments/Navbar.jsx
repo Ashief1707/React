@@ -24,15 +24,6 @@ export const Navbar = () => {
 
   const refreshToken = localStorage.getItem("refreshToken");
 
-  useEffect(() => {
-    // Cek apakah nama sudah di-set saat pertama kali load
-    if (!name) {
-      const storedName = localStorage.getItem("name");
-      if (storedName) {
-        setName(storedName);
-      }
-    }
-  }, [name, setName]);
 
   const Logout = async () => {
     setIsLoading(true);
